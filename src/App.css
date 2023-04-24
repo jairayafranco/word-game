@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.inputs-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin: auto;
+}
+
+input {
+    width: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.right-word {
+    background-color: #E2A946;
+    color: black;
+}
